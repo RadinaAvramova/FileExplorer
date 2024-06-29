@@ -78,7 +78,7 @@ function App() {
       getVolumes().catch(console.error);
     }
 
-    render += 1; // I don't know why but the use effect runs twice causing the "get_volumes" to be called twice.
+    render += 1;
   }, [])
 
   useEffect(() => {
